@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/hatsune-font.css">
+    <link rel="stylesheet" href="assets/css/hatsune-custom.css">
+    <link rel="stylesheet" href="assets/css/hatsune-animation.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/bootstrap-4/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/animate/animate.css"/>
+    <script src="assets/Jquery/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/popper/popper.js"></script>
+    <script src="assets/popper/tooltip.js"></script>
+    <script src="assets/parallax/parallax.min.js"></script>
+    <script src="assets/js/hatsune-custom.js"></script>
+    <script src="assets/js/animation.js"></script>
+</head>
+<body>
+    <section class="hatsune background sing-smile overflow hidden" style="z-index:-2">
+            <div id="scene2"
+                 style="height:100%">
+                <div data-depth="0.1" class="character" style="height:80%;z-index:2">
+                    <img class="animated fadeIn vertical-center"
+                         style="
+                         height: 100%;
+                         position:absolute;
+                         right:10%"
+                         src="./assets/images/singnsmile-miku.svg">
+                </div>
+                <div data-depth="0.2"
+                     class="purple"
+                     style="
+                     height:90%;
+                     z-index:3
+                     ">
+                    <img class="animated fadeIn"
+                         style="
+                         height:100%;
+                         transform: rotate(-24.72deg)"
+                         src="./assets/images/purple-rect.svg">
+                </div>
+                <div data-depth="0.9"
+                     class="blue"
+                     style="
+                     height:90%;
+                     ">
+                    <img class="animated fadeIn"
+                         style="
+                         height:100%;
+                         transform: rotate(23.47deg)"
+                         src="./assets/images/blue-rect.svg">
+                </div>
+                <div data-depth="0.3"
+                     class="pink"
+                     style="
+                     height:90%;
+                     z-index:-1;
+                     ">
+                    <img class="animated fadeIn"
+                         style="
+                         height:100%;
+                         transform: rotate(4.05deg)"
+                         src="./assets/images/pink-rect.svg">
+                </div>
+                <div data-depth="0.1"
+                     class="lightblue"
+                     style="
+                     height:80%;
+                     z-index:-2;
+                     ">
+                    <img class="animated fadeIn"
+                         style="
+                         height:100%;
+                         transform: rotate(353.93deg)"
+                         src="./assets/images/lightblue-rect.svg">
+                </div>
+                <div data-depth="0.1"
+                     class="singnsmile-nimbus vertical-center"
+                     style="
+                     height:80%;
+                     width:100%;
+                     z-index:4;
+                     ">
+                    <img class="animated fadeIn vertical-center"
+                         style="
+                         height:20%;
+                         left:10%;
+                         "
+                         src="./assets/images/singnsmile-nimbus.svg">
+                </div>
+            </div>
+    </section>
+    <script>
+        var scene2 = document.getElementById('scene2');
+
+        // Pretty simple huh?
+        var parallax2 = new Parallax(scene2, {
+            relativeInput: true,
+            clipRelativeInput: true,
+        });
+    </script>
+</body>
+</html>

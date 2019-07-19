@@ -1,0 +1,141 @@
+.hatsune.background{
+    background-size: cover!important;
+    width: 100%!important;
+    height: 100vh!important;
+}
+
+.hatsune.background.hero{
+    background: url("../images/3255-hatsune-miku-vocaloid.jpg") fixed center no-repeat;
+}
+
+.hatsune.background.about-me{
+    /*background: url("../images/6905906-hatsune-miku-anime-girl-art.jpg") fixed center no-repeat;*/
+    background: url("../images/miku-green-background-vector.png") fixed center no-repeat;
+}
+
+.hatsune.background.portfolio{
+    background: url("../images/vocaloid-devushka-muzyka-art.jpg") fixed center no-repeat;
+}
+
+.hatsune.background.sing-smile{
+    /*background: url("../images/hatsune-miku-girl-cute-smile-wallpaper-Strong-font.png") fixed center no-repeat;*/
+    background: #bd71ea fixed center no-repeat;
+}
+
+.hatsune.background.sing-smile-static{
+    background: url("../images/hatsune-miku-girl-cute-smile-wallpaper.png") fixed center no-repeat;
+    /*background: #bd71ea fixed center no-repeat;*/
+}
+
+.hatsune.background.parallax{
+    background: #333333 fixed center no-repeat;
+    /*background-size: auto!important;*/
+    /*background: url("../images/beaches-holiday-sand-palms-beach-paradise-waves-sea-vacation-coast-chilling-nature-sky-ocean-hammock-tropical-sun-summer-clouds-trees-sunshine-background-wallpaper-free-1920x1080.jpg")  center no-repeat;*/
+
+}
+
+/*This is customize for best display*/
+.hatsune.background.sing-smile .character{
+    top:13% !important
+}
+.hatsune.background.sing-smile .purple{
+    width:100%;
+    top:70% !important;
+    /*left:50% !important*/
+}
+
+.hatsune.background.sing-smile .purple > *{
+    position:absolute;
+    right : -20%;
+    /*left:50% !important*/
+}
+.hatsune.background.sing-smile .blue{
+    top:25% !important;
+    left:-25% !important
+}
+.hatsune.background.sing-smile .pink{
+    top:-30% !important;
+    left:30% !important
+}
+.hatsune.background.sing-smile .lightblue{
+    top:25% !important;
+    left:15% !important
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+@media (max-width: 768px){
+    .hatsune.background.sing-smile .character > *{
+        height : 80% !important;
+        right:0 !important;
+    }
+    .hatsune.background.sing-smile .singnsmile-nimbus{
+        visibility: hidden;
+    }
+    .hatsune.background.sing-smile .purple > *{
+        height : 80% !important;
+        right : -80%;
+    }
+    .hatsune.background.sing-smile .blue{
+        left:-120% !important
+    }
+    .hatsune.background.sing-smile .pink{
+        visibility: hidden;
+    }
+    .hatsune.background.sing-smile .lightblue{
+        top:10% !important;
+        left:5% !important
+    }
+    .hatsune.background.sing-smile .lightblue > *{
+        height:80%;
+        transform: rotate(340deg) !important;
+    }
+}
+
+@media (max-width: 360px){
+    .hatsune.background.sing-smile .character > *{
+        height : 80% !important;
+        right:0 !important;
+    }
+    .hatsune.background.sing-smile .singnsmile-nimbus{
+        visibility: hidden;
+    }
+    .hatsune.background.sing-smile .purple > *{
+        height : 90% !important;
+        right : -80%;
+    }
+    .hatsune.background.sing-smile .blue{
+        left:-120% !important
+    }
+    .hatsune.background.sing-smile .pink{
+        visibility: hidden;
+    }
+    .hatsune.background.sing-smile .lightblue{
+        top:10% !important;
+        left:5% !important
+    }
+    .hatsune.background.sing-smile .lightblue > *{
+        height:80%;
+        transform: rotate(340deg) !important;
+    }
+}

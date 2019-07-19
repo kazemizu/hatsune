@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "nimbus-light";
+    src: url("../fonts/Nimbus/Nimbus-Sans-D-OT-Ultra-Light.ttf");
+}
+
+@font-face {
+    font-family: "kanit";
+    src: url("../fonts/Kanit/Kanit-Black.ttf");
+    src: url("../fonts/Kanit/Kanit-BlackItalic.ttf");
+    src: url("../fonts/Kanit/Kanit-ExtraBold.ttf");
+    src: url("../fonts/Kanit/Kanit-ExtraBoldItalic.ttf");
+    src: url("../fonts/Kanit/Kanit-ExtraLight.ttf");
+    src: url("../fonts/Kanit/Kanit-ExtraLightItalic.ttf");
+    src: url("../fonts/Kanit/Kanit-Italic.ttf");
+    src: url("../fonts/Kanit/Kanit-Light.ttf");
+    src: url("../fonts/Kanit/Kanit-LightItalic.ttf");
+    src: url("../fonts/Kanit/Kanit-Medium.ttf");
+    src: url("../fonts/Kanit/Kanit-MediumItalic.ttf");
+    src: url("../fonts/Kanit/Kanit-Regular.ttf");
+    src: url("../fonts/Kanit/Kanit-SemiBold.ttf");
+    src: url("../fonts/Kanit/Kanit-SemiBoldItalic.ttf");
+    src: url("../fonts/Kanit/Kanit-Thin.ttf");
+    src: url("../fonts/Kanit/Kanit-ThinItalic.ttf");
+}
+
+/*Color Palette*/
+.color.hatsune.black{
+    color : #373b3e;
+    /*color : rgba(55,59,62,0);*/
+}
+.color.hatsune.grey{
+    color : #bec8d1 ;
+    /*color : rgba(190,200,209,0);*/
+}
+.color.hatsune.light-green{
+    color : #86cecb;
+    /*color : rgba(134,206,203,0);*/
+}
+.color.hatsune.black-green{
+    color : #137a7f;
+    /*color : rgba(19,122,127,0);*/
+}
+.color.hatsune.pink{
+    color : #e12885;
+    /*color : rgba(225,40,133,0);*/
+}
+.color.hatsune.white{
+    color : #ffffff;
+    /*color : rgba(225,40,133,0);*/
+}
+
+
+.nimbus-light{
+    font-family: "nimbus-light";
+}
+
+.kanit{
+    font-family: "kanit",sans-serif;
+}
+
+.font-size.thin{
+    font-weight: 100;
+}
+
+.font-size.extra-light{
+    font-weight: 200;
+}
+
+.font-size.light{
+    font-weight: 300;
+}
+
+.font-size.regular{
+    font-weight: 400;
+}
+
+.font-size.medium{
+    font-weight: 500;
+}
+
+.font-size.semi-bold{
+    font-weight: 600;
+}
+
+.font-size.bold{
+    font-weight: 700;
+}
+
+.font-size.extra-bold{
+    font-weight: 800;
+}
+
+.font-size.black{
+    font-weight: 900;
+}
