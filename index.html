@@ -18,25 +18,25 @@
 </head>
 <body>
     <!--Hero Contain-->
-    <!--<section class="hatsune background hero">-->
-        <!--<div class="container" style="height:100%">-->
-            <!--<ul id="show-case" class="display-3 nimbus-light vertical-center-right fit-content show-case color hatsune white">-->
-                <!--<li class="animation-element"><a href="">H</a></li>-->
-                <!--<li class="animation-element"><a href="">A</a></li>-->
-                <!--<li class="animation-element"><a href="">T</a></li>-->
-                <!--<li class="animation-element"><a href="">S</a></li>-->
-                <!--<li class="animation-element"><a href="">U</a></li>-->
-                <!--<li class="animation-element"><a href="">N</a></li>-->
-                <!--<li class="animation-element"><a href="">E</a></li>-->
-                <!--<li class="animation-element "><a href=""> </a></li>-->
-                <!--<li class="animation-element"><a href="">M</a></li>-->
-                <!--<li class="animation-element"><a href="">I</a></li>-->
-                <!--<li class="animation-element"><a href="">K</a></li>-->
-                <!--<li class="animation-element"><a href="">U</a></li>-->
-            <!--</ul>-->
-        <!--</div>-->
-    <!--</section>-->
-    <section class="hatsune background parallax parent overflow-y hidden" style="z-index:-1">
+    <!-- <section class="hatsune background hero">
+        <div class="container" style="height:100%">
+            <ul id="show-case" class="display-3 nimbus-light vertical-center-right fit-content show-case color hatsune white">
+                <li class="animation-element"><a href="">H</a></li>
+                <li class="animation-element"><a href="">A</a></li>
+                <li class="animation-element"><a href="">T</a></li>
+                <li class="animation-element"><a href="">S</a></li>
+                <li class="animation-element"><a href="">U</a></li>
+                <li class="animation-element"><a href="">N</a></li>
+                <li class="animation-element"><a href="">E</a></li>
+                <li class="animation-element "><a href=""> </a></li>
+                <li class="animation-element"><a href="">M</a></li>
+                <li class="animation-element"><a href="">I</a></li>
+                <li class="animation-element"><a href="">K</a></li>
+                <li class="animation-element"><a href="">U</a></li>
+            </ul>
+        </div>
+    </section> -->
+    <!-- <section class="hatsune background parallax parent overflow-y hidden" style="z-index:-1">
         <div class="container vertical-bottom" style="height:90%;">
             <div id="scene" style="height:100%">
                 <div data-depth="0.1" style="height:100%;">
@@ -61,7 +61,7 @@
             </div>
             <br>
         </div>
-    </section>
+    </section> -->
     <section class="hatsune background about-me overflow-y hidden">
         <div class="container" style="height:100%">
             <div class="row vertical-center-left nimbus-light">
@@ -197,18 +197,22 @@
         var scene = document.getElementById('scene');
 
         // Pretty simple huh?
-        var parallax = new Parallax(scene, {
-            relativeInput: true,
-            clipRelativeInput: true,
-        });
+        if (scene) {
+            var parallax = new Parallax(scene, {
+                relativeInput: true,
+                clipRelativeInput: true,
+            });
+        }
 
         var scene2 = document.getElementById('scene2');
 
         // Pretty simple huh?
-        var parallax2 = new Parallax(scene2, {
-            relativeInput: true,
-            clipRelativeInput: true,
-        });
+        if (scene2) {
+            var parallax2 = new Parallax(scene2, {
+                relativeInput: true,
+                clipRelativeInput: true,
+            });
+        }
     </script>
 </body>
 </html>
