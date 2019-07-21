@@ -1,0 +1,27 @@
+{
+  "name": "hatsune",
+  "version": "1.0.0",
+  "description": "Hatsune miku world",
+  "main": "index.html",
+  "dependencies": {
+    "@mojs/core": "^0.288.2",
+    "typed.js": "^2.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazemizu/hatsune.git"
+  },
+  "keywords": [
+    "hatsune"
+  ],
+  "author": "kazemizu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kazemizu/hatsune/issues"
+  },
+  "homepage": "https://github.com/kazemizu/hatsune#readme"
+}
