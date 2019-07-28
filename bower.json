@@ -1,0 +1,25 @@
+{
+  "name": "hatsune",
+  "description": "Hatsune miku world",
+  "main": "index.html",
+  "authors": [
+    "kazemizu"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "hatsune"
+  ],
+  "homepage": "https://kazemizu.github.io/hatsune/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "^2.2.10",
+    "jquery": "^3.4.1"
+  }
+}
